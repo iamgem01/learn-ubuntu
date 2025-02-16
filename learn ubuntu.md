@@ -16,3 +16,8 @@
 
 `env DCONF_PROFILE=ibus dconf write /desktop/ibus/general/preload-engines "['BambooUs', 'Bamboo']" && gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('ibus', 'Bamboo')]"`
 
+- Nếu gặp lỗi thì có thể uninstall nó bằng lệnh:
+`sudo apt-get remove ibus-bamboo –y`
+
+`sudo apt-get autoremove –y`
+  
